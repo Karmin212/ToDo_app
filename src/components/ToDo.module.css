@@ -1,0 +1,32 @@
+﻿.ToDo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+.left {
+    background-color: white;
+    width:  30%;
+    border-right: 1px solid black;
+}
+.title {
+    background-color: white;
+    padding:5%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 50px;
+}
+.notes {
+    display:flex;
+    flex-direction: column;
+}
+.item{
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1) inset;
+    height: 53px;
+    padding: 2%;
+}
+.right {
+    background-color: white;
+    flex-grow: 3;
+}

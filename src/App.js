@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import Footer from "./components/Footer.js";
-import ToDo from "./components/ToDo";
+import Editor from './components/Editor/Editor';
+import Footer from './components/Footer/Footer';
+import Left from './components/Left/Left';
 
 const App = () => {
     return(
-    <div>
-        <ToDo />
+    <div className='app-wrapper'>
+        <Left />
+        <Editor />
         <Footer />
     </div>
     )

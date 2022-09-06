@@ -1,0 +1,8 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&display=swap');
+.title {
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 50px;
+}
